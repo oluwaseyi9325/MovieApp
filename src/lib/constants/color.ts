@@ -1,0 +1,12 @@
+export const COLORS = {
+  PRIMARY: "#7065F0",
+  SECONDARY: "#100A55",
+  PURPLE: "#000929",
+  WHITE: "#FFFFFF",
+  BLACK: "#000000",
+  GRAY: "#6C727F",
+  secondaryGray: "#F0EFFB",
+  PLACEHOLDER_COLOR: "#00092975",
+  BORDER_COLOR: "#E0DEF7",
+  LIGHT_TEXT: "#100a5578",
+};
