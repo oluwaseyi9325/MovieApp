@@ -44,7 +44,7 @@ const MovieList = ({
             contentContainerStyle={{
                 paddingBottom: 40,
                 paddingTop: 10,
-                paddingHorizontal: 10,
+                // paddingHorizontal: 10,
             }}
             showsVerticalScrollIndicator={false}
         />

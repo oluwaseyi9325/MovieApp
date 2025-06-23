@@ -4,6 +4,7 @@ import routes from '../../navigation/routes';
 import { MovieList, MovieSearch, MovieSectionTitle } from '../../compoents';
 import { usePopularMovies } from '../../hooks';
 import AppScreen from '../../compoents/AppScreen';
+import { View } from 'react-native';
 
 
 
@@ -42,7 +43,8 @@ const MovieHome = () => {
 
   return (
     <AppScreen isNotScrollable={true}>
-      <MovieSectionTitle />
+          <View style={{borderWidth:1, borderColor:"white"}}>
+          <MovieSectionTitle />
       <MovieSearch query={query} setQuery={setQuery} />
       <MovieList
         movies={filteredMovies}
@@ -54,6 +56,7 @@ const MovieHome = () => {
         isFetchingNextPage={isFetchingNextPage}
         onPress={handleGoToViewMovie}
       />
+      </View>
     </AppScreen>
   );
 };
